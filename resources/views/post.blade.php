@@ -18,12 +18,11 @@
 
                 {{-- <h5>{{ $post["author"] }}</h5> --}}
 
-                <article class="my-3 fs-5">
+                <article class="my-3 fs-5 mb-2">
                     {!! $post->body !!}
                 </article>
 
-
-                 <a href="/blog" class="d-block mt-3">Back To Posts</a>
+                 <a href="/blog" class="mt-3 btn btn-outline-success">Back To Posts</a>
             </div>
         </div>
     </div>
